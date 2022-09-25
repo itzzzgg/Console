@@ -1,5 +1,5 @@
  function say(string) {
-      gClient.sendArray([{m:'a', message:string}]);
+      gClient.sendArray([{m: 'dm', _id: 'ID HERE', message:(:string)}])
     }
 function handleMessage(msg) {
 window.inspect = (() => {
